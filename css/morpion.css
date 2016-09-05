@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  color: #1d0c0c;
+  text-shadow: -1px -1px #c33c3c;
+  background: #c33c3c;
+}
+
+body h1 {
+  font-weight: normal;
+  color: #1d0c0c;
+  margin-top: -40px;
+}
+
+body .turn {
+  margin-bottom: 10px;
+}
+
+body table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 auto;
+}
+
+body table td {
+  height: 150px;
+  width: 500px;
+  border: 1px solid #1d0c0c;
+  cursor: pointer;
+}
+
+body table td:before {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+body table td.cross:before {
+  content: "x";
+  color: rgb(0, 69, 238);
+  font-size: 40px;
+}
+
+body table td.circle:before {
+  content: "o";
+  color: rgb(0, 42, 33);
+  font-size: 40px;
+}
+
+body .reset {
+  background: #555;
+  border: 1px solid #1d0c0c;
+  padding: 5px 10px;
+  color: #1d0c0c;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+body .reset:hover {
+  opacity: 0.8;
+}
